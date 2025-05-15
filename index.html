@@ -14,16 +14,21 @@
 }
 
 
-#ot-sdk-cookie-policy-v2 .ot-sdk-cookie-policy section:not(:nth-of-type(1)) {
-  display: none !important;
+.table1 .ot-sdk-cookie-policy section:first-of-type{
+  display:none !important;
 }
 
+.table2 .ot-sdk-cookie-policy section:first-of-type{
+  color:red !important;
+}
   
 </style>
 <body>
 <h1>Test bricoman</h1>
 <!-- OneTrust Cookies List start -->
-<div id="ot-sdk-cookie-policy"></div>
+<div id="ot-sdk-cookie-policy" class="table1"></div>
+<p>----------------------------------------------------</p>
+<div id="ot-sdk-cookie-policy" class="table2"></div>
 <!-- OneTrust Cookies List end -->
 <!-- OneTrust Cookies Consent Notice start for www.bricoman.fr -->
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="815dc5a5-814c-4750-9f9b-66422b9af3a6-test" ></script>
